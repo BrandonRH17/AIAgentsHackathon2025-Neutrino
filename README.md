@@ -24,12 +24,22 @@ Meanwhile, agents are overwhelmed with:
 
 ## 🧠 Before Tasker
 
-| Real Estate Listing 🏢 | Automobile Dealership 🚗 |
+| 🏢 Real Estate Listing | 🚗 Automobile Dealership |
 |------------------------|--------------------------|
 | A customer asks about a new project. | A customer asks about a specific model. |
 | The agent replies with the same generic PDF as 10 others. | The agent replies with the same generic PDF as 20 others. |
 | If there's interest, they manually build a quote in Google Sheets and follow up via WhatsApp. | If interested, a manual quote is built in Google Sheets and followed up via WhatsApp. |
 | Eventually, the deal may close. | Eventually, the deal may close. |
+
+---
+
+## 📉 The cost of *not* responding fast
+
+> ⏱️ According to a [MIT study](https://hbr.org/2011/03/the-short-life-of-online-sales-leads), companies that respond to leads within **5 minutes** are **100x more likely** to connect with them than those that wait 30 minutes or more.
+
+Yet most agents respond hours—or days—later.
+
+**Tasker solves this by responding instantly, 24/7, with personalized content that moves the deal forward.**
 
 ---
 
@@ -51,11 +61,4 @@ All inside a single agent — no switching tools, no wasted time.
 
 ---
 
-## 📁 Folder Structure
 
-```bash
-├── assets/
-│   └── profile_picture.jpeg
-├── agents/
-├── logic-apps/
-├── README.md
