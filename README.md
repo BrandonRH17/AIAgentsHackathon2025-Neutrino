@@ -62,6 +62,28 @@ Most sales teams respond hours or days later.
 For more technical details, each folder in the repository documents the corresponding component in depth.
 
 ---
+## Components
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/video_finished.jpeg" alt="Video Finished" width="700"/>
+</p>
+
+### Retool CRM
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/Retool%20-%20Clients.png" alt="Retool - Clients" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/Retool%20-%20Projects.png" alt="Retool - Projects" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/Retool%20-%20Resources.png" alt="Retool - Resources" width="600"/>
+</p>
+
+
+---
 ## 👇 Try It Yourself
 
 > [🔗 Live Demo (coming soon)](https://example.com)
