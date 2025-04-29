@@ -25,16 +25,6 @@ Most sales teams respond hours or days later.
 | If there's interest, they manually build a quote in Google Sheets and follow up via WhatsApp. | If interested, a manual quote is built in Google Sheets and followed up via WhatsApp. |
 | Eventually, the deal may close. | Eventually, the deal may close. |
 
-### After Tasker
-
-Tasker automates:
-- Personalized quoting in seconds
-- Real-time availability and price updates
-- Smart follow-ups via WhatsApp or email
-- AI summarization and objection handling
-
-All inside a single agent — no switching tools, no wasted time.
-
 ---
 
 ## Key Features
