@@ -2,7 +2,7 @@
 
 Our **AI Search** is directly connected to our **MySQL** database, allowing seamless and intelligent retrieval of information across three key tables:
 
-## 1. Clients Table (`clientes`)
+## 1. Clients Table (`clients`)
 This table contains information about leads who have shown interest in our projects. It includes the following fields:
 - **Name**: Full name of the client
 - **Phone Number**: Contact number of the client
@@ -11,7 +11,7 @@ This table contains information about leads who have shown interest in our proje
 - **Interested Project**: The project the client is most interested in
 - **Preferred Contact Method**: The preferred communication method (e.g., WhatsApp, email, phone call)
 
-## 2. Properties Table (`propiedades`)
+## 2. Properties Table (`properties`)
 This table contains detailed information about available properties. It includes:
 - **Project**: The project to which the property belongs
 - **Property Identifier**: A unique identifier for each property
@@ -21,7 +21,7 @@ This table contains detailed information about available properties. It includes
 - **Number of Parking Spaces**: Total number of parking spots included
 - **Floor Plan URL**: A link to the property's floor plan document
 
-## 3. Projects Table (`proyectos`)
+## 3. Projects Table (`projects`)
 This table stores information related to each project we offer:
 - **Project Name**: The official name of the project
 - **Multimedia Content URLs**: Links to the project's promotional videos
