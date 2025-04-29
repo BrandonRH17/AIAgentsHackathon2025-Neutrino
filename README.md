@@ -82,7 +82,7 @@ For more technical details, each folder in the repository documents the correspo
 ---
 ## 👇 Try It Yourself
 
-> [🔗 Chat with Tasker](https://example.com](https://foundryagentchat-gdfjggbpbgchhadu.mexicocentral-01.azurewebsites.net/))
+> [🔗 Chat with Tasker](https://foundryagentchat-gdfjggbpbgchhadu.mexicocentral-01.azurewebsites.net/)
 
 ---
 
