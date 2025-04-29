@@ -82,16 +82,7 @@ For more technical details, each folder in the repository documents the correspo
 ---
 ## 👇 Try It Yourself
 
-> [🔗 Live Demo (coming soon)](https://example.com)
+> [🔗 Chat with Tasker]([https://example.com](https://foundryagentchat-gdfjggbpbgchhadu.mexicocentral-01.azurewebsites.net/))
 
 ---
 
-## 📁 Folder Structure
-
-```bash
-├── assets/
-│   ├── profile_picture.jpeg
-│   └── quote_ready.jpeg
-├── agents/
-├── logic-apps/
-├── README.md
