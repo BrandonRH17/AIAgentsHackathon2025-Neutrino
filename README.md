@@ -86,3 +86,8 @@ For more technical details, each folder in the repository documents the correspo
 
 ---
 
+## Next Steps
+
+- User validation through Redis  
+- Deployment across channels such as WhatsApp, Telegram, and SMS
+
