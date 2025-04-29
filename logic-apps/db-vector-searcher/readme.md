@@ -1,4 +1,4 @@
-## 1. `db-vector-searcher`
+## `db-vector-searcher`
 
 This Logic App is responsible for providing our AI agent with the contextual information it needs to assist real estate advisors or trigger other internal tools.
 
