@@ -44,7 +44,7 @@ Most sales teams respond hours or days later.
 ## Architecture
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/Tasker%20-%20Architecture-General%20Architecture.drawio.png" alt="Tasker Architecture Diagram" width="800"/>
+  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/quote_ready_2.jpeg" alt="Quote Ready 2" width="700"/>
 </p>
 
 - **Companion Web App / CRM:** Retool  
@@ -54,6 +54,11 @@ Most sales teams respond hours or days later.
 - **Vector Searcher:** Azure AI Search  
 - **Agent Functions:** Azure Logic Apps  
 - **Agent Deployment:** Azure AI Agents  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/Tasker%20-%20Architecture-General%20Architecture.drawio.png" alt="Tasker Architecture Diagram" width="800"/>
+</p>
+
 
 
 ## 👇 Try It Yourself
