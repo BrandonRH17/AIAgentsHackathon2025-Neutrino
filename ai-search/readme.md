@@ -33,7 +33,7 @@ This table stores information related to each project we offer:
 
 ## Embedding Strategy
 
-We use **OpenAI's large embeddings** to perform **vector-based search** across our data.
+We use **OpenAI's large embeddings** to perform **vector-based search** across our data. (text-embedding-3-large)
 
 The reasons for choosing this embedding type are:
 - **Higher precision**: Property and project information can often be very similar, and large embeddings allow us to retrieve the most accurate match for the client's query.
