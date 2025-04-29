@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://azure.microsoft.com/svghandler/search/?width=600&height=315" alt="AI Search" width="600" height="315">
+</p>
+
 # AI Search Integration
 
 Our **AI Search** is directly connected to our **MySQL** database, allowing seamless and intelligent retrieval of information across three key tables:
