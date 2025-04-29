@@ -10,7 +10,14 @@
                     "method": "POST",
                     "schema": {
                         "type": "object",
-                        "additionalProperties": true
+                        "properties": {
+                            "entity_type": {
+                                "type": "string"
+                            },
+                            "query": {
+                                "type": "string"
+                            }
+                        }
                     }
                 }
             }
@@ -26,7 +33,7 @@
                     },
                     "method": "post",
                     "body": {
-                        "input": "Cayala"
+                        "input": "@triggerBody()?['query']"
                     },
                     "path": "/deployments/@{encodeURIComponent('text-embedding-3-large')}/embeddings",
                     "queries": {
@@ -58,7 +65,7 @@
             },
             "Switch": {
                 "type": "Switch",
-                "expression": "@variables('query_type')",
+                "expression": "@variables('entity_type')",
                 "default": {
                     "actions": {
                         "Response_-_Default": {
@@ -194,7 +201,61 @@
                         "case": "property"
                     },
                     "client": {
-                        "actions": {},
+                        "actions": {
+                            "Search_vectors_-_Clients": {
+                                "type": "ApiConnection",
+                                "inputs": {
+                                    "host": {
+                                        "connection": {
+                                            "name": "@parameters('$connections')['azureaisearch-1']['connectionId']"
+                                        }
+                                    },
+                                    "method": "post",
+                                    "body": "@body('Parse_JSON')",
+                                    "path": "/vectorSearch",
+                                    "queries": {
+                                        "indexName": "vector-clients",
+                                        "vectorFieldsName": "text_vector",
+                                        "nearestNeighbors": 3
+                                    }
+                                }
+                            },
+                            "Cleanup_-_Clients": {
+                                "type": "Select",
+                                "inputs": {
+                                    "from": "@body('Search_vectors_-_Clients')",
+                                    "select": {
+                                        "client_id": "@item()?['client_id']\r\n",
+                                        "project_id": "@item()?['project_id']\r\n",
+                                        "project_name": "@item()?['project_name']\r\n",
+                                        "client_name": "@item()?['client_name']\r\n",
+                                        "investment_type": "@item()?['investment_type']\r\n",
+                                        "preferred_contact_method": "@item()?['preferred_contact_method']\r\n",
+                                        "room_count_interest": "@item()?['room_count']\r\n",
+                                        "client_email": "@item()?['client_email']\r\n",
+                                        "client_phone_number": "@item()?['client_phone_number']\r\n"
+                                    }
+                                },
+                                "runAfter": {
+                                    "Search_vectors_-_Clients": [
+                                        "SUCCEEDED"
+                                    ]
+                                }
+                            },
+                            "Response_-_Clients": {
+                                "type": "Response",
+                                "kind": "Http",
+                                "inputs": {
+                                    "statusCode": 200,
+                                    "body": "@body('Cleanup_-_Clients')"
+                                },
+                                "runAfter": {
+                                    "Cleanup_-_Clients": [
+                                        "SUCCEEDED"
+                                    ]
+                                }
+                            }
+                        },
                         "case": "client"
                     }
                 },
@@ -209,9 +270,9 @@
                 "inputs": {
                     "variables": [
                         {
-                            "name": "query_type",
+                            "name": "entity_type",
                             "type": "string",
-                            "value": "property"
+                            "value": "@{triggerBody()?['entity_type']}"
                         }
                     ]
                 },
