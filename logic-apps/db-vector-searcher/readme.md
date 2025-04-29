@@ -14,3 +14,10 @@ The Logic App then:
 3. Returns the most relevant matches from the vector store.
 
 ---
+
+## 🧩 Rationale Behind the Search Architecture
+
+- **Varying Entity Dimensions**: Projects typically have 2–3 active records, clients can exceed 100 monthly entries, and properties can surpass 400. Separating the vector search per entity ensures higher precision, reduces noise, and optimizes database performance.
+- **Relational Structure for Data Insertion**: Maintaining a relational structure facilitates easier and safer data insertion via the **Retool frontend**, preserving clarity in data visualization and preventing conflicts during query execution.
+
+---
