@@ -47,7 +47,7 @@ Most sales teams respond hours or days later.
   <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/quote_ready_2.jpeg" alt="Quote Ready 2" width="700"/>
 </p>
 
-- **Companion Web App / CRM:** Retool  
+- **CRM:** Retool  
 - **Agent Web App:** Static Web Apps  
 - **Database:** Azure SQL  
 
