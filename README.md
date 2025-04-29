@@ -64,10 +64,6 @@ For more technical details, each folder in the repository documents the correspo
 ---
 ## Components
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/video_finished.jpeg" alt="Video Finished" width="700"/>
-</p>
-
 ### Retool CRM
 
 <p align="center">
