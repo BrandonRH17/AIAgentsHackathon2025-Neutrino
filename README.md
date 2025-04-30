@@ -41,13 +41,23 @@ Most sales teams respond hours or days later.
 - Supports the advisor by generating personalized content or full quotes in under 30 seconds.
 
 
-### Custom Content 1: Esther  
-*Family mom, interested in luxury and family amenities*  
-![Esther GIF](https://github.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/raw/main/assets/Esther%20Video.gif)
+<p align="center">
+  <strong>Instant Quote Example:</strong><br>
+  <img src="https://github.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/raw/main/assets/instant%20quote.png" alt="Instant Quote Example" width="600"/>
+</p>
 
-### Custom Content 2: Oscar  
-*Young single, interested in the zone and the amenities*  
-![Oscar GIF](https://github.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/raw/main/assets/Oscar%20Video.gif)
+<p align="center">
+  <strong>Example 1 - Personalized video: Esther</strong><br>
+  <em>Family mom, interested in luxury and family amenities</em><br>
+  <img src="https://github.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/raw/main/assets/Esther%20Video.gif" alt="Esther GIF" width="600"/>
+</p>
+
+<p align="center">
+  <strong>Example 2 - Personalized video: Oscar</strong><br>
+  <em>Young single, interested in the zone and the amenities</em><br>
+  <img src="https://github.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/raw/main/assets/Oscar%20Video.gif" alt="Oscar GIF" width="600"/>
+</p>
+
 
 ---
 ## Architecture
