@@ -88,6 +88,10 @@ For more technical details, each folder in the repository documents the correspo
 
 ## Next Steps
 
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/Retool%20-%20Resources.png](https://github.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/blob/main/assets/new_lead.png)" alt="Tasker - Dancing" width="600"/>
+</p>
+
 - User validation through Redis  
 - Deployment across channels such as WhatsApp, Telegram, and SMS
 
