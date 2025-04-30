@@ -1,8 +1,8 @@
+# Logic Apps Integration
+
 <p align="center">
   <img src="https://azure.microsoft.com/svghandler/logic-apps/?width=600&height=315" alt="Azure Logic Apps" width="600" height="315">
 </p>
-
-# Logic Apps Integration
 
 We use **Azure Logic Apps** to orchestrate our AI workflows and integrate seamlessly with our MySQL database and Azure OpenAI services. Currently, we have three dedicated Logic Apps, each designed for a specific part of our AI-driven architecture.
 
