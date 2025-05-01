@@ -33,12 +33,12 @@ Most sales teams respond hours or days later.
   <img src="https://raw.githubusercontent.com/BrandonRH17/AIAgentsHackathon2025-Neutrino/main/assets/quote_ready.jpeg" alt="Quote Ready" width="600"/>
 </p>
 
-- Responds within the first 5 minutes of receiving a new lead via Facebook Ads or Instagram Forms.
-- Contacts the lead using their preferred method (WhatsApp or Gmail).
-- Sends generic prequalification content to engage the lead immediately.
-- Notifies the assigned real estate advisor with lead details and status update.
-- Automatically creates the client in the CRM and updates the deal status.
-- Supports the advisor by generating personalized content or full quotes in under 30 seconds.
+- **Instant Response Times:** Responds within the first 5 minutes of receiving a new lead via Facebook Ads or Instagram Forms using their preferred method (WhatsApp or Gmail).
+- **Lead pre qualification:** Sends generic prequalification content to engage the lead immediately.
+- **Lead notification:** Notifies the assigned real estate advisor with lead details and status update.
+- **CRM Management:** Automatically creates the client in the CRM and updates the deal status.
+- **Personalized Content:** Supports the advisor by generating personalized videos based on the lead persona, including the lead name in 3 minutes.
+- **Quote Creation:** Creates personalized quotes based on up to date data on the available properties in less than 30 seconds.
 
 
 <p align="center">
