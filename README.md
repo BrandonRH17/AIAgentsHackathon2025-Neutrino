@@ -107,6 +107,8 @@ For more technical details, each folder in the repository documents the correspo
 ---
 ## 👇 Try It Yourself
 
+Since shared drives require giving explicit access to email accounts, video generations and quotes will only be trigerred, but the testers will not be able to access the documents.
+
 > [🔗 Chat with Tasker](https://foundryagentchat-gdfjggbpbgchhadu.mexicocentral-01.azurewebsites.net/)
 
 > [🔗 Video - Business Case](https://youtu.be/iKjZrwZJBUE)
