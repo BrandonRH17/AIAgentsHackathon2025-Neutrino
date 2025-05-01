@@ -94,8 +94,8 @@
                     "input_media_url": "@{variables('intro_parameters')['input_media_url']}",
                     "modifications": [
                         {
-                            "name": "@triggerBody()?['nombre_cliente']",
-                            "text": "we are glad to have you!"
+                            "name": "titulo",
+                            "text": "@{split(triggerBody()?['nombre_cliente'], ' ')[0]} we are glad to have you!"
                         }
                     ],
                     "trim_to_length_in_seconds": "@variables('intro_parameters')['trim_to_length_in_seconds']",
@@ -208,8 +208,8 @@
                     "input_media_url": "@{variables('outro_variables')['input_media_url']}",
                     "modifications": [
                         {
-                            "name": "@triggerBody()?['nombre_cliente']",
-                            "text": "we are glad to have you!"
+                            "name": "titulo",
+                            "text": "@{split(triggerBody()?['nombre_cliente'], ' ')[0]} welcome to the family!"
                         }
                     ],
                     "trim_to_length_in_seconds": "@variables('outro_variables')['trim_to_length_in_seconds']",
