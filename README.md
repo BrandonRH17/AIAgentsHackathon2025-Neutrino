@@ -109,7 +109,7 @@ For more technical details, each folder in the repository documents the correspo
 
 > [🔗 Chat with Tasker](https://foundryagentchat-gdfjggbpbgchhadu.mexicocentral-01.azurewebsites.net/)
 
->> [🔗 Video - Business Case](https://youtu.be/iKjZrwZJBUE) 
+> [🔗 Video - Business Case](https://youtu.be/iKjZrwZJBUE) 
 
 ---
 
